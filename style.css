@@ -1,0 +1,41 @@
+body {
+    margin: 50px;
+    background-image: radial-gradient(rgb(39, 37, 37),rgb(6, 104, 22));
+    height: 100%;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.pianokeyboard{
+    display: flex;
+}
+  
+.key{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.white {
+    height: 320px;
+    width: 80px;
+    z-index: -1;
+    background-color: white;
+}
+
+.black {
+    height: 240px;
+    width: 60px;
+    background-color: black;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+ 
+.white.shade {
+    background-color: rgb(207, 200, 200);
+}
+
+.black.shade {
+    background-color: rgb(41, 39, 39);
+}  
